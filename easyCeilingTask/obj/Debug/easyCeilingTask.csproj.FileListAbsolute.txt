@@ -1,0 +1,6 @@
+C:\Users\tpata\OneDrive\Рабочий стол\easyCeilingTask\easyCeilingTask\bin\Debug\easyCeilingTask.exe.config
+C:\Users\tpata\OneDrive\Рабочий стол\easyCeilingTask\easyCeilingTask\bin\Debug\easyCeilingTask.exe
+C:\Users\tpata\OneDrive\Рабочий стол\easyCeilingTask\easyCeilingTask\bin\Debug\easyCeilingTask.pdb
+C:\Users\tpata\OneDrive\Рабочий стол\easyCeilingTask\easyCeilingTask\obj\Debug\easyCeilingTask.csprojAssemblyReference.cache
+C:\Users\tpata\OneDrive\Рабочий стол\easyCeilingTask\easyCeilingTask\obj\Debug\easyCeilingTask.exe
+C:\Users\tpata\OneDrive\Рабочий стол\easyCeilingTask\easyCeilingTask\obj\Debug\easyCeilingTask.pdb
