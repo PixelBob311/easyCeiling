@@ -1,0 +1,17 @@
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.0\WpfApp1.exe
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.0\WpfApp1.deps.json
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.0\WpfApp1.runtimeconfig.json
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.0\WpfApp1.runtimeconfig.dev.json
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.0\WpfApp1.dll
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\bin\Debug\netcoreapp3.0\WpfApp1.pdb
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\WpfApp1.csprojAssemblyReference.cache
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\MainWindow.g.cs
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\App.g.cs
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\WpfApp1_MarkupCompile.cache
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\WpfApp1_MarkupCompile.lref
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\MainWindow.baml
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\WpfApp1.g.resources
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\WpfApp1.AssemblyInfo.cs
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\WpfApp1.dll
+C:\Users\tpata\OneDrive\Рабочий стол\WpfApp1\WpfApp1\obj\Debug\netcoreapp3.0\WpfApp1.pdb

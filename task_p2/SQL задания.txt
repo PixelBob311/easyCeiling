@@ -1,0 +1,26 @@
+1) Запрос для выведения покупателей, кто сегодня ожидает звонка
+select e.Name, c.CustID, c.Time from calls c join employees e on c.EmpID = e.EmpID
+where c.Time = (SELECT CURRENT_DATE()) 
+
+//можно было бы вывести для нужного сотрудника, добавив Where e.EmpId = N или через and
+
+2) Запрос для счета зарплаты с учетом штрафов
+with finesTable as (
+select e.EmpID, e.Name,  SUM(ifNull(s.Value,0)) as fine  from employees e left join fines s on s.EmpID = e.EmpID 
+group by e.Name)
+select Name, ((sal* 0.1) - fine) as ResultSalary from finesTable join (SELECT DISTINCT d.EmpID, Sum(d.Price) over(PARTITION BY d.EmpID) as sal from deals d) res on res.EmpID
+ = finesTable.EmpID
+
+/*вот тут косяк в том, что изначально я не подумал назначать штрафу дату. Получается мы всегда штрафуем работника, если у него есть штрафы.
+ По уму, надо бы поставить дату на полученный штраф, и при расчете зарплаты фильтровать штрафы, которые получены в течение предыдущего рабочего месяца
+ Для этого можно использовать какой-нибудь Between или In */
+
+
+3) Наглядное сравнение зарплат (По-моему, самым наглядным способом будет распределить всех по местам, чтобы понять, кто получает больше, а кто меньше)
+with finesTable as (
+select e.EmpID, e.Name,  SUM(ifNull(s.Value,0)) as fine  from employees e left join fines s on s.EmpID = e.EmpID 
+group by e.Name)
+select Name, ((sal* 0.1) - fine) as ResultSalary, res.Time, RANK() over (PARTITION BY res.Time Order by ResultSalary DESC) as positions from finesTable 
+join (SELECT DISTINCT d.EmpID, Sum(d.Price) over(PARTITION BY d.EmpID) as sal, d.Time  from deals d) res on res.EmpID
+ = finesTable.EmpID
+//тот же косяк со штрафами
